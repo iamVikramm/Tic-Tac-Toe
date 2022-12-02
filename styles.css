@@ -1,0 +1,42 @@
+body{
+    background-color:black ;
+}
+h1{
+    color: white;
+}
+
+
+.cell{
+    width: 75px;
+    height: 75px;
+    background-color:blueviolet ;
+    border: 2px solid ;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 60px;
+    cursor: pointer;
+
+}
+#gameContainer{
+    font-family: "Permanent Marker",cursive;
+    text-align: center;
+    margin-top: 15%;
+}
+
+#cellContainer{
+    display:grid;
+    grid-template-columns:repeat(3,auto);
+    width: 225px;
+    margin: auto;
+    
+}
+
+#restartBtn{
+    background-color: aqua;
+    border-radius: 30px;
+    height: 50px;
+    cursor: pointer;
+}
+#statusText{
+    color: white;
+}
